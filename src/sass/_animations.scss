@@ -1,0 +1,41 @@
+@keyframes menu-appear {
+  from {
+    // opacity: 0;
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+  99% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.menu-slide-down {
+  animation: menu-appear 750ms ease-in-out forwards;
+}
+
+@keyframes menu-disappear {
+  from {
+    opacity: 1;
+  }
+  // 99% {
+  //   transform: translateY(0%);
+  //   opacity: 1;
+  // }
+  to {
+    transform: translateY(-150%);
+    opacity: 0;
+  }
+}
+
+.menu-slide-up {
+  animation: menu-disappear 750ms ease-in-out forwards;
+}
+
+// .translateY-menu {
+//   transform: translateY(-150%);
+// }

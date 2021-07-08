@@ -1,0 +1,55 @@
+.footer {
+  background-color: lighten($Dark-moderate-cyan, 25%);
+  padding-top: 3.25rem;
+
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__links {
+    justify-content: space-around;
+    padding: 2.5rem 1rem 0;
+
+    a {
+      color: $Dark-moderate-cyan;
+      font-weight: 600;
+    }
+  }
+
+  .social_media {
+    justify-content: space-around;
+    padding: 4.5rem 3.875rem;
+    text-align: center;
+
+    > a {
+      &:not(:last-child) {
+        margin-right: 1.375rem;
+      }
+    }
+
+  }
+  
+  @include breakpoint-up(large){
+  
+    &__links {
+      padding: 2.5rem 35% 0;
+  
+      a {
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+          color: $White;
+        }
+      }
+    }
+    
+    .icon {
+      transition: all 200ms ease-in-out;
+    
+      &:hover {
+        filter: invert(0) sepia(0) saturate(0) hue-rotate(0deg) brightness(25);
+      }
+    }
+  }
+}

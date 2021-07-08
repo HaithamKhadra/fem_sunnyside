@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+
+  .grid_pic1 { grid-area: 1 / 1 / 3 / 3; max-width: 50%;}
+  .grid_pic2 { grid-area: 1 / 2 / 2 / 3; max-width: 100%;}
+  .grid_pic3 { grid-area: 2 / 1 / 3 / 2; max-width: 100%;}
+  .grid_pic4 { grid-area: 2 / 2 / 3 / 3; max-width: 100%;}
+
+  @include breakpoint-up(large) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: none;
+    
+    .grid_pic1 { grid-area: 1 / 1 / 2 / 2; max-width: 100%;}
+    .grid_pic2 { grid-area: 1 / 2 / 2 / 3; }
+    .grid_pic3 { grid-area: 1 / 3 / 2 / 4; }
+    .grid_pic4 { grid-area: 1 / 4 / 2 / 5; }
+
+  }
+}

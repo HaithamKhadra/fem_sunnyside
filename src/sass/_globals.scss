@@ -1,0 +1,65 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'barlow', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  background-color: lighten($Yellow, 50%);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fraunces', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+// .container {
+//   padding-top: 2.125rem;
+//   padding-right: 3rem;
+//   padding-bottom: 2.125rem;
+//   padding-left: 2.5rem;
+// }
+
+.flex {
+  display: flex;
+
+  &-js-sb {
+    justify-content: space-between;
+  }
+
+  &-js-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+}
+
+// visibility
+.hide-for-mobile {
+  // hide for medium and down
+  @include breakpoint-down(small) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(medium) {
+    display: none;
+  }
+}
