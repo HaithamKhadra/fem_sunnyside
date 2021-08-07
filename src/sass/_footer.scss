@@ -10,10 +10,16 @@
   &__links {
     justify-content: space-around;
     padding: 2.5rem 1rem 0;
+    width: 50%;
+    margin: 0 auto;
 
     a {
       color: $Dark-moderate-cyan;
       font-weight: 600;
+      
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
     }
   }
 

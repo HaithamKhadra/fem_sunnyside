@@ -14,7 +14,7 @@
     content: '';
     position: absolute;
     display: block;
-    background-image: url('./images/desktop/image-header.jpg');
+    background-image: url('/images/desktop/image-header.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +123,7 @@
   .slogan {
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 20%;
     padding-top: 0;
     padding-bottom: 0;
     text-transform: uppercase;
@@ -273,4 +273,28 @@
   
   }
 
+}
+
+@include breakpoint-down(medium) { 
+  .header {
+
+    &__links {
+      a {
+        font-size: 16px;
+        
+        &:not(:last-child) {
+          margin-right: 32px;
+        }
+  
+        &:last-child {
+          padding: 0.875rem 1.675rem;
+
+        }
+      }
+    }
+
+    .slogan {
+      font-size: 200%;
+    }
+  }
 }

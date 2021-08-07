@@ -55,6 +55,7 @@
     &__absolute {
       position: absolute;
       bottom: 0;
+      width: 100%;
 
       h3 {
         margin: 0;
@@ -81,7 +82,26 @@
     
   //   }
   // }
-  
+
+  @include breakpoint-down(medium) {
+    .features {
+      &__item {
+
+        &__absolute {
+    
+          h3 {
+            font-size: 1.125rem;
+          }
+    
+          p {
+            font-size: $font-sm;
+            padding: 0.875rem 2rem 1rem;
+        }
+      }
+      }
+    }
+  }
+
   @include breakpoint-down(small) {
     .features {
 
@@ -143,6 +163,7 @@
     
         &__absolute {
           position: absolute;
+          width: 100%;
           bottom: 0;
     
           h3 {
@@ -163,6 +184,37 @@
               color: $Dark-blue;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 845px) and (max-width: 1148px) {
+  // .features__item:nth-child(1), .features__item:nth-child(4) {
+  //   padding: 4rem 8rem 3rem 6rem;
+  //   background-color: #fffefa;
+  // }
+  .features {
+  
+    &__item {
+      
+      &:nth-child(1), &:nth-child(4) {
+        padding: 1rem 2rem 2rem 2rem;
+      }
+
+      &__absolute {
+
+  
+        h3 {
+          font-size: 2rem;
+        }
+  
+        p {
+          font-size: $font-md;
+          padding: 1rem 3rem 2rem;
+
         }
       }
     }
