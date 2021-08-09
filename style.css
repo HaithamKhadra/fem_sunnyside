@@ -374,7 +374,7 @@ a, a:visited, a:hover {
 
 .features__item__absolute p {
   font-size: 1.125rem;
-  padding: 2rem 10rem 2rem;
+  padding: 2rem 8rem 2rem;
   text-align: center;
 }
 
@@ -505,8 +505,8 @@ a, a:visited, a:hover {
 }
 
 .testimonials .testimonials_container .client p {
-  font-size: 1.125rem;
-  padding: 1.825rem 2.225rem 1rem;
+  font-size: 1.025rem;
+  padding: 1.825rem 2rem 1rem;
   line-height: 1.7;
   color: #5a636c;
   margin: 0;
