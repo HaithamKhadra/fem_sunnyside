@@ -33,9 +33,22 @@ The visitors of this Landing page are able to:
 
 ## Screenshots
 
-| Mobile design | hamburger menu | Tablet design | Desktop design |
-|---------------|---------------|---------------|---------------|
-| <img src="./images/readmeimages/phnscrnsht.jpg" width="250"> | <img src="./images/readmeimages/phnscrnsht2.jpg" width="250"> | <img src="./images/readmeimages/tbltscrn.jpg" width="250"> | <img src="./images/readmeimages/screencapture-sunnyside.jpg" width="250"> |
+### Mobile design 
+
+![Mobile design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/phnscrnsht.jpg)
+
+### hamburger menu 
+
+![hamburger menu screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/phnscrnsht2.jpg)
+
+### Tablet design 
+
+![Tablet design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/screencapture-sunnyside.jpg)
+
+### Desktop design 
+
+![Desktop design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/tbltscrn.jpg)
+
 
 
 
