@@ -28,7 +28,17 @@ The visitors of this Landing page are able to:
 
 ## Tech Stack
 
-**Client side:** HTML, CSS, SASS, JavaScript.
+- ### Tools used on the **Client side:** 
+
+  - **HTML** 
+  - **CSS** - **SASS (SCSS)**
+  - **JavaScript**
+
+
+## Links
+
+- ### [live Demo](https://haithamkhadra.github.io/fem_sunnyside)
+- [Frontend Mentor | Sunnyside agency landing page coding challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
 
 
 ## Screenshots
@@ -43,19 +53,11 @@ The visitors of this Landing page are able to:
 
 ### Tablet design 
 
-![Tablet design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/screencapture-sunnyside.jpg)
+![Desktop design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/tbltscrn.jpg)
 
 ### Desktop design 
 
-![Desktop design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/tbltscrn.jpg)
-
-
-
-
-## Links
-
-### [live Demo](https://haithamkhadra.github.io/fem_sunnyside)
-[Frontend Mentor | Sunnyside agency landing page coding challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+![Tablet design screenshot](https://raw.githubusercontent.com/HaithamKhadra/fem_sunnyside/master/images/readmeImages/screencapture-sunnyside.jpg)
 
 
 
